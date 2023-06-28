@@ -64,10 +64,10 @@
 <body>
     <div id="main">
         <h1>Цокольный этаж</h1>
-        <form id="form">
-            <input type="text" placeholder="Книга, серия или автор" id="search-book">
-            <button id="search">Поиск</button>
-        </form>
+        <div class="input-group search-group">
+            <input type="text" class="form-control" id="q" name="q" value="" placeholder="Книга, автор или серия" />
+            <button type="submit" id="submit" class="btn btn-primary" onClick="go();">Поиск</button>
+        </div>
     </div>
 </body>
 </html>
