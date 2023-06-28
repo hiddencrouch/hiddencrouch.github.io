@@ -8,50 +8,13 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat%3Ai%2Cbi%2C700%2C400%7CManrope%3Ai%2Cbi%2C700%2C400&amp;display=swap" rel="stylesheet" nonce="">
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
             font-family: 'Monserrat', sans-serif;
-            font-weight: 200;
             color: var(--tg-theme-text-color);
             background: var(--tg-theme-bg-color);
         }
 
-        #main {
-            width: 100%;
-            padding: 20px;
-            text-align: center;
-        }
-
-        h1 {
-            margin-top: 50px;
-            margin-bottom: 10px;
-        }
-
-        img {
-            width: 70px;
-            margin: 30px auto;
-        }
-
-        p {
-            width: 350px;
-            margin: 0 auto;
-        }
-
         button {
-            border: 0;
-            border-radius: 5px;
-            margin-top: 50px;
-            height: 60px;
-            width: 200px;
-            font-size: 20px;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 500ms ease;
             color: var(--tg-theme-button-color);
             background: var(--tg-theme-button-text-color);
         }
@@ -62,7 +25,7 @@
     </style>
 </head>
 <body>
-    <div id="main">
+    <div id="main" class="container">
         <h1>Цокольный этаж</h1>
         <div class="input-group search-group">
             <input type="text" class="form-control" id="q" name="q" value="" placeholder="Книга, автор или серия" />
